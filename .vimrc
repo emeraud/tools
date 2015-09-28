@@ -29,7 +29,19 @@ set hlsearch     " highlight all matches
 " status line
 """"""""""""""""""""""""""""""""""""
 set laststatus=2
-set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+set statusline=%t       "tail of the filename
+set statusline+=\ [%{strlen(&fenc)?&fenc:'none'}, "file encoding
+set statusline+=%{&ff}] "file format
+set statusline+=%h      "help file flag
+set statusline+=%m      "modified flag
+set statusline+=%r      "read only flag
+set statusline+=%y      "filetype
+set statusline+=\ %r%{getcwd()}%h 
+set statusline+=%=      "left/right separator
+set statusline+=%c,     "cursor column
+set statusline+=%l/%L   "cursor line/total lines
+set statusline+=\ %P    "percent through file
+
 
 """"""""""""""""""""""""""""""""""""
 " syntax
@@ -43,6 +55,7 @@ set showmatch     " highlight pairs '(' ')', etc...
 set splitright
 set splitbelow
 
+
 """"""""""""""""""""""""""""""""""""
 " typography
 """"""""""""""""""""""""""""""""""""
@@ -52,6 +65,18 @@ set showcmd 			" show (partial) command in status line
 set nu            " line numbers
 
 """"""""""""""""""""""""""""""""""""
-" plugins
+" theme
+""""""""""""""""""""""""""""""""""""
+set background=dark
+set t_Co=256
+let g:solarized_termcolors=256
+let g:solarized_termtrans = 1 "fixes transparency when background=dark
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "normal"
+colorscheme solarized
+
+""""""""""""""""""""""""""""""""""""
+" Plugins/themes:
 """"""""""""""""""""""""""""""""""""
 " tComment: http://www.vim.org/scripts/script.php?script_id=1173
+" solarized: https://github.com/altercation/vim-colors-solarized
