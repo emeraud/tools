@@ -24,7 +24,9 @@
 <Plug>TComment_<c-_>r	tcomment.txt	/*<Plug>TComment_<c-_>r*
 <Plug>TComment_<c-_>s	tcomment.txt	/*<Plug>TComment_<c-_>s*
 <Plug>TComment_ic	tcomment.txt	/*<Plug>TComment_ic*
+ZoomWin.txt	ZoomWin.txt	/*ZoomWin.txt*
 b:tcomment_def_{NAME}	tcomment.txt	/*b:tcomment_def_{NAME}*
+g:ZoomWin_funcref	ZoomWin.txt	/*g:ZoomWin_funcref*
 g:tcomment#blank_lines	tcomment.txt	/*g:tcomment#blank_lines*
 g:tcomment#ignore_char_type	tcomment.txt	/*g:tcomment#ignore_char_type*
 g:tcomment#ignore_comment_def	tcomment.txt	/*g:tcomment#ignore_comment_def*
@@ -63,6 +65,8 @@ g:tcommentOptions	tcomment.txt	/*g:tcommentOptions*
 g:tcommentSyntaxMap	tcomment.txt	/*g:tcommentSyntaxMap*
 g:tcommentTextObjectInlineComment	tcomment.txt	/*g:tcommentTextObjectInlineComment*
 g:tcomment_types	tcomment.txt	/*g:tcomment_types*
+g:zoomwin_preserve_taglist	ZoomWin.txt	/*g:zoomwin_preserve_taglist*
+g:zoomwin_preserve_winmanager	ZoomWin.txt	/*g:zoomwin_preserve_winmanager*
 i_<Plug>TComment_<c-_><c-_>	tcomment.txt	/*i_<Plug>TComment_<c-_><c-_>*
 i_<Plug>TComment_<c-_><space>	tcomment.txt	/*i_<Plug>TComment_<c-_><space>*
 i_<Plug>TComment_<c-_>a	tcomment.txt	/*i_<Plug>TComment_<c-_>a*
@@ -97,3 +101,9 @@ x_<Plug>TComment_<Leader>_i	tcomment.txt	/*x_<Plug>TComment_<Leader>_i*
 x_<Plug>TComment_Comment	tcomment.txt	/*x_<Plug>TComment_Comment*
 x_<Plug>TComment_Uncomment	tcomment.txt	/*x_<Plug>TComment_Uncomment*
 x_<Plug>TComment_gc	tcomment.txt	/*x_<Plug>TComment_gc*
+zoomwin	ZoomWin.txt	/*zoomwin*
+zoomwin-copyright	ZoomWin.txt	/*zoomwin-copyright*
+zoomwin-history	ZoomWin.txt	/*zoomwin-history*
+zoomwin-options	ZoomWin.txt	/*zoomwin-options*
+zoomwin-setup	ZoomWin.txt	/*zoomwin-setup*
+zoomwin-usage	ZoomWin.txt	/*zoomwin-usage*

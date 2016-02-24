@@ -13,6 +13,7 @@ set tabstop=2           " nb spaces by tab
 set softtabstop=2
 set shiftwidth=2        " nb spaces for >>
 set autoindent          " copy indent from current line when starting a new line
+set cindent
 
 """"""""""""""""""""""""""""""""""""
 " navigation
@@ -80,3 +81,8 @@ colorscheme solarized
 """"""""""""""""""""""""""""""""""""
 " tComment: http://www.vim.org/scripts/script.php?script_id=1173
 " solarized: https://github.com/altercation/vim-colors-solarized
+" zoomWin: http://www.vim.org/scripts/script.php?script_id=508
+
+" ctrl+w w toggles pane to full screen/not full screen
+nnoremap <silent> <C-w>w :ZoomWin<CR>
+
