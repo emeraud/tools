@@ -111,5 +111,3 @@ tmux select-window -t $SESSION:0
 # Attach to session
 tmux attach-session -t $SESSION
 
-# kill it
-tmux kill-session -t $SESSION
