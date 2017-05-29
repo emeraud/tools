@@ -86,3 +86,11 @@ colorscheme solarized
 " ctrl+w w toggles pane to full screen/not full screen
 nnoremap <silent> <C-w>w :ZoomWin<CR>
 
+
+
+
+
+
+
+set expandtab           " enter spaces when tab is pressed
+
